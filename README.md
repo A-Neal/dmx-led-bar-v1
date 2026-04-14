@@ -1,4 +1,4 @@
-#FPGA DMX Decoder and PWM Driver Written in Verilog
+# FPGA DMX Decoder and PWM Driver Written in Verilog
 
 This project directory is uploaded as-is, and doesn't contain a lot of polish.
 
