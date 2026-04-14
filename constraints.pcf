@@ -1,0 +1,42 @@
+# iCE Sugar dev board pin constraints
+#set_io		CLK_12MHz	35
+#set_io		DMX_INPUT	10
+#set_io		DMX_ADDR[0]	46
+#set_io		DMX_ADDR[1]	44
+#set_io		DMX_ADDR[2]	42
+#set_io		DMX_ADDR[3]	37
+#set_io		DMX_ADDR[4]	48
+#set_io		DMX_ADDR[5]	34
+#set_io		DMX_ADDR[6]	31
+#set_io		DMX_ADDR[7]	27
+#set_io		DMX_ADDR[8]	25
+#set_io		PWM_OUT[0]	45
+#set_io		PWM_OUT[1]	43
+#set_io		PWM_OUT[2]	38
+#set_io		PWM_OUT[3]	36
+#set_io		PWM_OUT[4]	47
+#set_io		PWM_OUT[5]	32
+
+# Custom PCB pin constraints
+set_io		CLK_12MHz	20
+set_io		DMX_INPUT	10
+set_io		-pullup yes	DMX_ADDR[0]	37
+set_io		-pullup yes	DMX_ADDR[1]	38
+set_io		-pullup yes	DMX_ADDR[2]	42
+set_io		-pullup yes	DMX_ADDR[3]	43
+set_io		-pullup yes	DMX_ADDR[4]	44
+set_io		-pullup yes	DMX_ADDR[5]	45
+set_io		-pullup yes	DMX_ADDR[6]	46
+set_io		-pullup yes	DMX_ADDR[7]	47
+set_io		-pullup yes	DMX_ADDR[8]	48
+set_io		PWM_OUT[0]	25
+set_io		PWM_OUT[1]	26
+set_io		PWM_OUT[2]	27
+set_io		PWM_OUT[3]	28
+set_io		PWM_OUT[4]	35
+set_io		PWM_OUT[5]	36
+
+set_io		DEBUG_OUT	13
+
+set_frequency	CLK_12MHz	12
+
